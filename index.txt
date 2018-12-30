@@ -1,4 +1,5 @@
-git clone [url]
-git add .
-git commit -m ''
-git push origin master
+git clone [url]            #将远程仓库克隆到本地仓库
+git add .                  #添加本地整个文件目录到暂存区
+git commit -m '说明信息'           #给文件（夹）添加说明信息
+git push origin master            #提交到远程仓库
+git status                  #查看文件状态
